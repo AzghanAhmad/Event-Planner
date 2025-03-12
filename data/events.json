@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "name": "Team Meeting",
+      "description": "Meeting will be held to discuss the project",
+      "date": "2024-10-15",
+      "time": "10:00",
+      "category": "Meetings",
+      "reminder": true,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Birthday Party",
+      "description": "Azghan's Birthday",
+      "date": "2002-05-24",
+      "time": "18:00",
+      "category": "Birthdays",
+      "reminder": false,
+      "userId": 2
+    }
+  ]
