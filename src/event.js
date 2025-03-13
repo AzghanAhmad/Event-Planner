@@ -59,7 +59,7 @@ function setReminder(event) {
   if (timeUntilEvent > 0) {
     setTimeout(() => {
       console.log(`Reminder: ${event.name} is scheduled for ${event.date} at ${event.time}`);
-      // Here you can add code to send an email or other notification
+      
     }, timeUntilEvent);
   }
 }
