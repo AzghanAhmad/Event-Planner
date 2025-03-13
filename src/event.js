@@ -64,6 +64,7 @@ function setReminder(event) {
   }
 }
 
+
 //Simple user authentication
 const users = [
   { id: 1, username: 'user1', password: '123' },
