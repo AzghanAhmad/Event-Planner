@@ -1,4 +1,4 @@
-const { createEvent, getEvents, updateEvent, deleteEvent } = require('./events');
+const { createEvent, getEvents, updateEvent, deleteEvent } = require('./src/event.js');
 
 // Test createEvent
 createEvent({

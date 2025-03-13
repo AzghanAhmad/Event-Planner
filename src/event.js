@@ -48,6 +48,8 @@ function deleteEvent(id) {
   saveEvents();
 }
 
+module.exports = { createEvent, getEvents, updateEvent, deleteEvent };
+
 //Reminder system
 function setReminder(event) {
   const eventTime = new Date(`${event.date}T${event.time}`);
